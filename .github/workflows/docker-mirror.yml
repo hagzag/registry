@@ -15,7 +15,7 @@ jobs:
           - image: golang
             repo: docker.io
           - image: postgres
-            repo: bitnami
+            repo: docker.io
           - image: python
             repo: docker.io
           - image: devops-tools
