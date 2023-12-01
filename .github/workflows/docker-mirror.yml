@@ -19,7 +19,7 @@ jobs:
           - image: python
             repo: docker.io
           - image: devops-tools
-            repo: docker.io/hagzag
+            repo: hagzag
     permissions:
       contents: read
       packages: write
