@@ -15,9 +15,11 @@ jobs:
           - image: golang
             repo: docker.io
           - image: postgres
-            repo: docker.io
+            repo: bitnami
           - image: python
             repo: docker.io
+          - image: devops-tools
+            repo: docker.io/hagzag
     permissions:
       contents: read
       packages: write
